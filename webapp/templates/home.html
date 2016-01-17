@@ -1,0 +1,29 @@
+{% extends "layout.html" %}
+{% block content %}
+    <div class="jumbo">
+        <h2>Mix Analyzer<h2>
+        <h3>This application analyzes music mixes and aims at finding transitions between songs.<h3>
+    </div>
+    <div class="player">
+        <iframe width="420" height="315" src="https://www.youtube.com/watch?v=oE5HPJ96bOo">
+        </iframe>
+        
+        <audio controls>
+            <!-- <source src="horse.ogg" type="audio/ogg"> -->
+            <source src="static/media/music.mp3" type="audio/mpeg">
+        Your browser does not support the audio element.
+    </audio>
+    </div>
+    <div class="test">
+<!--         <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+        <script src="mediaelement-and-player.min.js"></script>
+        <link rel="stylesheet" href="mediaelementplayer.css" />
+
+        <video width="640" height="360" id="player1" preload="none">
+            <source type="video/youtube" src="http://www.youtube.com/watch?v=nOEw9iiopwI" />
+        </video> -->
+        <embed width="420" height="315"
+src="http://www.youtube.com/watch?v=nOEw9iiopwI">
+    </div>
+    
+{% endblock %}
